@@ -1,0 +1,12 @@
+#title-slide h1 small {
+	font-size: 0.4em;
+	display: block;
+}
+
+section.slide > div > h2 {
+	text-align: center;
+}
+
+section.slide img {
+	border: 2px solid #e8e8e8;
+}
