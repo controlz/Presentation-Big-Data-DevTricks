@@ -42,15 +42,20 @@
 
 
     <!-- Begin slides -->
-    <section class="slide">
-    </section>
-
     <section class="slide" id="title-slide">
-      <h1><small>Introduction to</small> Big Data <small>and</small> Predictive Analytics</h1>
+      <h2><small>Introduction to</small> Big Data <small>and</small> Predictive Analytics</h2>
+      <img src="images/bigdatacartoon-3.png" />
     </section>
 
+    <!--
+    #
+    #
+    # BIG DATA
+    #
+    #
+    -->
     <section class="slide">
-      <h2>Definition of Big Data</h2>
+      <h2>What is Big Data?</h2>
       <img src="images/bigdata-text.jpg" />
       <blockquote cite="http://en.wikipedia.org/wiki/Big_data">
         <p>a collection of data sets so large and complex that it becomes difficult to process using on-hand database management tools or traditional data processing applications.</p>
@@ -60,20 +65,36 @@
 
     <section class="slide">
       <h2>First Big Data Problem</h2>
-      <h3>Information Overload</h3>
-      <ul>
-      <li>In 1880, the US Census took 8 years to tabulate</li>
-      <li class="slide">Estimated that the 1890 Census would take 14 years!</li>
-      </ul>
-
       <div class="slide">
-        <h3>Hollerith Tabulating Machine</h3>
-         <img src="images/hollerith-tabular.jpg" />
+        <h3>Information Overload</h3>
         <ul>
-        <li>"tamed" the big data</li>
-        <li>Census completed in one year</li>
+        <li>The 1880 US Census took 8 years to tabulate</li>
+        <li class="slide">Estimated that the 1890 Census would take 14 years!</li>
         </ul>
       </div>
+
+      <div class="slide">
+        
+        <img src="images/hollerith-tabular.jpg" style="float:left;"/>
+        <div style="float: left; margin-left: 25px;">
+          <h3>Hollerith Tabulating Machine</h3>
+          <ul>
+            <li>Using punch cards to record information</li>
+            <li>Used electromechanical relays to increment mechanical counters
+            <li>Could count, sort, and set off a bell when card had been read</li>
+            <li>it "tamed" the big data</li>
+            <li>Census was completed in one year</li>
+            <li>...finishing months ahead of schedule and far under budget.</li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Big Data Timeline</h2>
+      <p>For more history on Big Data check out: </p>
+      <pre><a href="http://www.winshuttle.com/big-data-timeline/">http://www.winshuttle.com/big-data-timeline/</a></pre>
     </section>
 
     <section class="slide">
@@ -88,69 +109,135 @@
           </ul>
       </li>
       </ul>
+
+      <blockquote>Provide opportunities to find insights into new and emerging types of data.<p><cite>IBM</cite></p></blockquote>
+      <blockquote>Holds the promise of giving enterprises deeper insights into your customers, partners, and business.<p><cite>Oracle</cite></p></blockquote>
     </section> 
 
     <section class="slide">
       <h2>Characteristics</h2>
-      <h3>Three Main V's of Big Data</h3>
+      <h3>Four V's of Big Data</h3>
 
       <ol>
-        <li class="slide"><strong>Volume</strong> The amount of data determines value and potential of data.</li>
-        <li class="slide"><strong>Velocity</strong> Speed at which data is generated and processed. </li>
-        <li class="slide"><strong>Variety</strong> Different types of data is widely available.</li>
+        <li class="slide"><strong>Volume</strong> => The amount of data determines value and potential of data.</li>
+        <li class="slide"><strong>Velocity</strong> => Speed at which data is generated and processed. </li>
+        <li class="slide"><strong>Variety</strong> => Different types of data is widely available.</li>
+        <li class="slide"><strong>Value</strong> => How much is it worth?</li>
       </ol>
 
       <div class="slide">
         <ul>
-          <li><strong>Variability</strong> How good is the data?</li>
-          <li><strong>Complexity</strong> Data comes from multiple sources, needs to be linked, connected and correlated to make sense of the data.</li>
+          <li><strong>Variability / Veracity</strong>: How good is the data? Various levels of uncertainty and reliability</li>
+          <li><strong>Complexity</strong>: Data comes from multiple sources, needs to be linked, connected and correlated to make sense of the data.</li>
         </ul>
       </div>
     </section>  
 
     <section class="slide">
       <h2>Challenges with Big Data</h2>
-      <p>Main Challenges:</p>
+
+      <div class="slide">
+        <p>Technical Challenges:</p>
+        <ul>
+          <li>Capturing, Curating, & Analysis of data</li>
+          <li>Storage, & Sharing/Transferring</li>
+          <li>Searching, Visualizing</li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <p>Personal Challenges</p>
+        <ul>
+          <li>What is the right approach?</li>
+          <li>How is your doing being perceived</li>
+          <li>Data Privacy / Regulations</li>
+          <li>Be careful with who you share your data with</li>
+          <li>Understanding challenges <div class="slide"><i>Challenges are always opportunities!</i></div></li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <p>Companies are ignoring large chunks of incoming data:</p>
+        <ul>
+          <li>Technology is primitive</li>
+          <li>Limited capacity for scanning and interpreting all the data coming in.</li>
+          <li>As result, data is simply not getting processed. Leading to losses in opportunity</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2></h2>
+      <img src="images/big-data-wheredatacomesfrom.jpg" />
+    </section>
+
+    <section class="slide">
+      <h2>Leveraging Big Data</h2>
+
       <ul>
-        <li>Capturing, Curating, & Analysis of data</li>
-        <li>Storage, Searching, & Sharing/Transferring</li>
-        <li>Visualizing</li>
-        <li>Privacy Violations</li>
+        <li>Get a 360 degree view of the customer</li>
+        <li>Build new applications or improve effectiveness of existing applications</li>
+        <li>Realize new sources of competitive advantage</li>
+        <li>Increase customer loyalty</li>
       </ul>
 
-      <p>Companies are ignoring large chunks of data.</p>
+      <p>Sectors benefiting from Big Data technologies:</p>
       <ul>
-        <li>Technology is primitive</li>
-        <li>Limited capacity for scanning and interpreting all the data coming in.</li>
-        <li>As result, data is simply not getting processed. Leading to losses in opportunity</li>
+        <li><strong>Government</strong>: predict and plan for civil unrest</li>
+        <li><strong>Health Care</strong>: data collection on patients, predict illness and help caregivers make better decisions</li>
+        <li><strong>Farming</strong>: accurately forecast bad weather and crop failures</li>
+        <li><strong>Science & Research</strong>: drive innovation</li>
+        <li><strong>Enterprises and Businesses</strong>: make better bussiness and marketing decisions</li>
       </ul>
     </section>
 
     <section class="slide">
-      <h2>Opportunities in Big Data</h2>
-      <p>Finding insights into new and emerging types of data.</p>
-      <pre>Deeper insights into your customers, your partners, and your business.</pre>
+      <h2>Big Data Technologies</h2>
 
-      <p>Who leverages Big Data?</p>
-      <ul>
-        <li>Government</li>
-        <li>Health Care</li>
-        <li>Science & Research</li>
-        <li>Private Sectors</li>
-      </ul>
+      <div>
+        <p><strong>Techniques:</strong></p>
+        <ul style="display: inline-block;">
+          <li>A/B Testing</li>
+          <li>Crowdsourcing</li>
+          <li>Data fusion and integration</li>
+          <li>Genetic Algorithms</li>
+          <li>Machine Learning</li>
+        </ul>
+
+        <ul style="display: inline-block; margin-left: 65px;">
+          <li>Natural Language Processing</li>
+          <li>Signal Processing</li>
+          <li>Simulation</li>
+          <li>Time series analysis</li>
+          <li>Visualisation</li>
+        </ul>
+      </div>
+
+      
+      <div>
+      <p><strong>Solutions:</strong></p>
+        <ul>
+          <li>MapReduce</li>
+          <li>Column-oriented databases</li>
+          <li>Schema-less database (NoSQL databses)</li>
+          <li>Hadoop</li>
+          <li>Hive</li>
+          <li>PIG</li>
+      </div>
     </section>
 
     <section class="slide">
-      <h2>Technologies</h2>
-      <h3>Hadoop</h3>
+      <h2>Hadoop</h2>
+      <img src="images/hadoop-logo.jpg" style="float: right;" />
+      <h3>Leading Platform for Big Data Analytics</h3>
       <a href="http://hadoop.apache.org/">http://hadoop.apache.org/</a>
-      <p><img src="images/hadoop-logo.jpg" /></p>
+      <p></p>
 
       <p>Open Source software for Reliable, Scalable, Distributed Computing.</p>
 
       <ul>
         <li>Distributes storage and processing of large data sets across clusters of server computers.</li>
-        <li>Detects and compensates for hardware, or other system problems, <strong>at the application level</strong>.
+        <li>Detects and compensates for hardware, or other system problems, <strong>at the application level</strong>.</li>
       </ul>
 
       <p>Consists of:</p>
@@ -163,6 +250,127 @@
           </ul>
         </li>
       </ul>
+    </section>
+
+     <section class="slide">
+      <h2>Cloud Based Infrastructures</h2>
+      <p>Cost effective, scalable cloud based technologies:</p>
+
+      <h4>Amazon Web Services - Big Data</h4>
+      <pre><a href="http://aws.amazon.com/big-data/" target="blank">http://aws.amazon.com/big-data/</a></pre>
+
+      <h4>Rackspace - Big Data powered by Apache Hadoop</h4>
+      <pre><a href="http://www.rackspace.com/big-data/" target="blank">http://www.rackspace.com/big-data/</a></pre>
+
+      <h4>Google Cloud Platform - Big Query</h4>
+      <pre><a href="https://cloud.google.com/bigquery/" target="blank">https://cloud.google.com/bigquery/</a></pre>
+    </section>
+
+
+    <!--
+    #
+    #
+    # PREDICTIVE ANALYTICS
+    #
+    #
+    -->
+    <section class="slide">
+      <h2>What is Predictive Analytics?</h2>
+      <img src="images/Predictive_analytics.jpg" />
+      <blockquote cite="http://en.wikipedia.org/wiki/Big_data">
+        <p>The practice of extracting information from existing data sets in order to determine patterns and predict future outcomes and trends. 
+
+        <br/><br/>Predictive analytics does not tell you what will happen in the future. It forecasts what might happen...</p>
+        <p><cite>Webopedia</cite></p>
+      </blockquote>
+    </section>
+
+    <section class="slide">
+      <h2>About Predictive Analytics</h2>
+
+
+      <ul>
+        <li>Encompasses statistical techniques for:
+          <ul>
+            <li>Data Modeling</li>
+            <li>Machine Learning</li>
+            <li>Data Mining</li>
+            </ul>
+        </li>
+        <li>Analyze current and historial facts to make predictons about the future
+      </ul>
+
+      <ul>
+        <li>It's about driving business value and the customer experience.</li>
+        <li>Holy grail of marketing and sales applications
+          <ul>
+            <li>make things run more effectively<li>
+            <li>Know the potential needs, purchases, and responses of each individual customer.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Predictive Analytics?</h2>
+
+      <blockquote>Technology that learns from <strong>experience</strong> to predict the future behaviour of <strong>individuals</strong> in order to drive better decisions.</blockquote>      
+
+      <img src="images/predictive-analytics-process.png" />
+    </section>
+
+    <section class="slide">
+      <h2>Predictive Analytics</h2>
+
+      <img src="images/pa-diagram1.png" />
+      <img src="images/pa-diagram2.png" />
+    </section>
+
+    <section class="slide">
+      <h2>Intersection of Big Data and APIs</h2>
+
+      <ol>
+        <li>Who the customer really is...</li>
+        <li>self declare what users like</li>
+        <li>what they actually do</li>
+      </ol>
+
+      <ul>
+        <li>Optimize service to the user based on the data you have</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Examples Predictive Analytics</h2>
+
+      <p>Models can predict customer attributes and behaviour</p>
+      <p>Using probability, models can anipate outcomes</p>
+
+      <p>Very <strong>Powerful</strong> and very <strong>Profitable</strong></p>
+
+      <ul>
+        <li>Direct Marketing</li>
+        <li>
+      </ul> 
+
+      <p>Uses:</p>
+
+      <ul>
+        <li>Predictive Turnover</li>
+      </ul> 
+    </section>
+
+    <section class="slide">
+      <h2>Data Science </h2>
+
+      <ul>
+        <li>Don't prejudge data => need more data</li>
+        <li>Run algorithms against data</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Building Predictive Apps</h2>
     </section>
 
     <!-- deck.navigation snippet -->
