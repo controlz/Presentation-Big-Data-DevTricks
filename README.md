@@ -1,6 +1,6 @@
 # Intro to Big Data and Predictive Analytics
 
-Presentation made for a [Software Niagara](https://github.com/softwareniagara/) event called [DevTricks](https://github.com/softwareniagara/devtricks).
+Presentation made for a monthly event called [DevTricks](https://github.com/softwareniagara/devtricks) organized by members of the [Software Niagara](https://github.com/softwareniagara/) community.
 
 Talk was done October 6th 2014.
 
